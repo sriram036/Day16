@@ -59,7 +59,7 @@ public class LinkedList<T> {
                 temp = temp.next;
                 fileWriter.write(string+" ");
             }
-            System.out.println();
+            System.out.println("File written Sucessfully");
             fileWriter.close();
         }
         catch (IOException e) {
